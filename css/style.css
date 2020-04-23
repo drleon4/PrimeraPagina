@@ -1,0 +1,48 @@
+body{
+	background-color: #333;
+	color: white;
+}
+
+aside,header, nav, section#contenedor,section#contenido, section#bibliografia, #experience ,footer{
+	border-radius: .5em;
+	background-color: #666;
+	display: inline-block;
+	padding: .3em;
+	margin: .3em auto;
+	text-align: center;
+	width: 95%;
+}
+
+p, ul, tr, h4{
+	text-align: justify;
+}
+
+td /* Todas las celdas de la tabla... */
+{
+    border: 1.9px solid black; /* tendrá un borde de 1 px */
+}
+
+aside,section#contenido{
+	display: inline-block;
+	background-color: #999;
+	min-height: 200px;
+	vertical-align: top;
+	width: 50%;
+}
+
+
+aside{
+	width: 45%
+}
+
+section#bibliografia{
+	text-align: justify;
+}
+
+header{
+	font-size: 2em;
+}
+
+footer{
+	font-size: .7em;
+}
